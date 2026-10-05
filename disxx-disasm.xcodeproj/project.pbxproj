@@ -58,16 +58,6 @@
 		84BB3B80306A9E60006AD0C2 /* disxx-disasm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "disxx-disasm.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		84340578307283C2008E0F91 /* Exceptions for "disxx-disasm" folder in "disxx-disasm" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				src/disxx.utility.error.DisassemblyError.cpp,
-			);
-			target = 84BB3B7F306A9E60006AD0C2 /* disxx-disasm */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 		8455F6BC307147E90036AB05 /* Exceptions for "disxx-disasm" folder in "Copy Files" phase from "disxx-disasm" target */ = {
 			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
@@ -112,7 +102,6 @@
 		84BB3B82306A9E60006AD0C2 /* disxx-disasm */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				84340578307283C2008E0F91 /* Exceptions for "disxx-disasm" folder in "disxx-disasm" target */,
 				8455F6BC307147E90036AB05 /* Exceptions for "disxx-disasm" folder in "Copy Files" phase from "disxx-disasm" target */,
 				8455F6CA3071480D0036AB05 /* Exceptions for "disxx-disasm" folder in "Copy Files" phase from "disxx-disasm" target */,
 				8455F6CE307148370036AB05 /* Exceptions for "disxx-disasm" folder in "Copy Files" phase from "disxx-disasm" target */,
